@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+    font-size: 16px;
+    color: #2c3e50;
+    background: rgb(156,150,255);
+    background: linear-gradient(90deg, rgba(156,150,255,1) 0%, rgba(255,226,165,1) 100%);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #8e44ad;
+}
+
+p.data-hora {
+    font-size: 1.5rem;
+}
