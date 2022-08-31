@@ -6,6 +6,13 @@
 * Abrir projeto no Netbeans ou outra IDE de preferência
 * Criar um arquivo HTML estático
 * Criar um Controller + template dinâmico
+* Criar um Controller + template dinâmico com objetos complexos (TODO)
+* Criar um fluxo para envio de dados (TODO)
+    * Criar Controller
+    * Criar tela de formulário
+    * Desenvolver lógica para Controller receber dados via POST
+    * POST-Redirect-GET
+    * Validação de dados
 
 ## Requisitos
 
@@ -178,3 +185,12 @@ Algumas mensagens apresentadas aqui podem ser verificadas na aba "Output" quando
 1. Aba "Output" não aparece ao rodar a aplicação
     * Ir no menu "Window > Output" para forçar a exibição
     
+1. Erro ao fazer o "Clean and build"
+    * Verificar se tem algum JDK instalado.
+    * Verificar se o JDK instalado corresponde a versão do projeto (no Prompt de comando, digitar `java -version`)
+
+## Próximos passos
+
+* Integração com banco de dados usando Spring Data JPA
+* Autenticação e autorização de acesso com Spring Security
+* Criação de webservices REST
